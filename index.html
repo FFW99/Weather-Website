@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherAPP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Weather APP</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <form action="/search" method="get" role="search">
+                <label for="query">Search:</label>
+                <input type="search" id="query" name="q" placeholder="Search...">
+                <button type="submit">Search</button>
+                </form>
+            </ul>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
